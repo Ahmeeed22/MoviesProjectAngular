@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+$bgColor:#131722;
+$lightBgColor:#24baef;
+$bgTransparent:rgba(36,186,239,.6);
+$fontColor:#fff;
+$borderColor:#a8a8a83d;
+$borderHeight:1px;
+$secondFontColor:#949cb0;
+ body{
+    font-family: 'Montserrat Alternates', sans-serif;
+     background-color: $bgColor;
+     color:$fontColor;
+ }
+//  .navbar{
+//     background-color:$bgColor ;
+// }
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    
+}
+ 
+.nav-link{
+    cursor: pointer;
+}
+
+.brdr{
+    background-color:$borderColor;
+    height: 1px;
+}
+.second-color{
+    color: $secondFontColor;
+}
+
+.vote{
+    background-color: $lightBgColor;
+    padding: 5px;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+.vote:hover{
+    background-color:#c25705;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.carousel';
+@import '~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default';
+$bgColor:#131722;
+$lightBgColor:#24baef;
+$bgTransparent:rgba(36,186,239,.6);
+$fontColor:#fff;
+$borderColor:#a8a8a83d;
+$borderHeight:1px;
+$secondFontColor:#949cb0;
+
+a{
+    font-size: 16px;
+    color: $fontColor;
+    text-decoration: none;
+}
+a:hover{
+   font-size: 18px;
+   color: $lightBgColor;
+   text-decoration: none;
+}
+.fa-facebook:hover {
+  color:#05238f;
+  transform: scale(1.12);
+}
+.fa-instagram:hover{
+   color:#cc2b5e;
+  transform: scale(1.12);
+}
+.fa-youtube:hover{
+   color: #FF0000;
+   transform: scale(1.12);
+}
+.fa-soundcloud:hover{
+   color: #fc4a1a;
+   transform: scale(1.12);
+}
+.fa-spotify:hover{
+   color: #24FE41;
+   transform: scale(1.12);
+}
+.social-media{
+    cursor: pointer;
+}
